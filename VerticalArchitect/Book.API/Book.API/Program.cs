@@ -18,6 +18,7 @@ builder.Services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
 var app = builder.Build();
 
 CreateBook.AddEndpoint(app);
+GetAllBooks.AddEndpoint(app);
 
 app.UseHttpsRedirection();
 
