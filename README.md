@@ -1,7 +1,8 @@
 #VerticalArchitect
-
 Vertical Slice Architecture in ASP.NET Core 8
+
 Overview
+
 This repository demonstrates the implementation of the Vertical Slice Architecture in ASP.NET Core 8, leveraging modern development practices to create a clean, maintainable, and scalable solution.
 
 Technologies and Tools
