@@ -1,13 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 namespace Book.API.Data
 {
-    public class AppDbContext:DbContext
+    public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(options)
     {
-        public AppDbContext(DbContextOptions<AppDbContext> options):base(options)
-        {
-            
-        }
-
-        public DbSet<Entities.Book> books => Set<Entities.Book>();
+        public DbSet<Entities.Book> Books => Set<Entities.Book>();
     }
 }
