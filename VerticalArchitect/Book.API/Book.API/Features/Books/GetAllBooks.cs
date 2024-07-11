@@ -14,6 +14,7 @@ namespace Book.API.Features.Books
                 return Results.Ok(books);
             });
         }
+       
     }
 
     public record Query:IRequest<List<API.Entities.Book>>;
